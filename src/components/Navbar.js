@@ -19,7 +19,7 @@ export class Navbar extends Component {
             <Link to="/" className="nav-link">Products</Link>
         </ul>
         <Link to="./cart" className="ml-auto">
-            <ButtonContainer><span><i className="fas fa-cart-plus"/></span>Cart</ButtonContainer>
+            <ButtonContainer><span><i className="fas fa-cart-plus"/></span>My Cart </ButtonContainer>
         </Link>
         </nav>
       </div>
