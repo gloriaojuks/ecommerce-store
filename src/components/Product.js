@@ -15,7 +15,7 @@ export class Product extends Component {
                             <Link to="/details">
                                 <img src={img} alt="product" className="card-img-top"/>
                             </Link>
-                            <button className="cart-btn mb-2 mr-2" disabled={inCart ? true : false} onClick={()=> {value.addToCart(id);}}>
+                            <button className="cart-btn mb-2 mr-2" disabled={inCart ? true : false} onClick={()=> {value.addToCart(id);value.OpenModal(id);}}>
                             {inCart ? (<p className="text-capitalize mb-0" disabled>in Cart</p>) : (<i className="fas fa-cart-plus" />)}
                             </button>
                         </div>)}
@@ -45,8 +45,8 @@ Product.propTypes ={
 }
 
 const ProductWrapper = styled.div`
-.card{border-color:transparent; transition:all 1s linear; }
-.card-footer{background: transparent; border-top: transparent; transition: all 1s linear}
+.card{border-radius:1rem;border-color:transparent; transition:all 1s linear; }
+.card-footer{background: transparent; border-top: transparent; transition: all 1s linear; color:#009ffd}
 &:hover{
     .card{border: 0.04rem solid rgba(0,0,0,0.2); box-shadow: 2px 5px 0px rgba(0,0,0,0.2)}
     .card-footer{background: rgba(247, 247, 247)}
