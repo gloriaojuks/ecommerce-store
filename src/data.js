@@ -104,7 +104,7 @@ export const storeProducts = [
 ];
 
 export const detailProduct = {
-  id: 1,
+    id: 1,
     title: "Knee Gown - Blue",
     img: "img/product-1.jpg",
     price: 10,
