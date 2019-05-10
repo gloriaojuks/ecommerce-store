@@ -1,8 +1,11 @@
 :root{--mainBlue:#862323;--lightBlue:#009ffd;--mainWhite:black;--mainDark:#fff;--mainYellow:white;}
 
-body{font-family: 'Oswald', sans-serif !important;background: var(--mainWhite) !important;color: var(--mainDark) !important;}
-.text-title{font-family: 'Permanent Marker', cursive; letter-spacing: 0.3rem; text-transform: uppercase;}
+body{font-family: 'Nanum Gothic', sans-serif !important;background: var(--mainWhite) !important;color: var(--mainDark) !important;}
+.text-title{font-family: 'Fjalla One', sans-serif; letter-spacing: 0.3rem; text-transform: uppercase;}
 .text-blue{color: var(--mainBlue)}
 .text-bright{color: var(--lightBlue)}
+.btn-black{background: var(--lightBlue)!important;text-transform:capitalize;font-size: 0.8rem !important;color:#fff !important;border-radius: 0 !important;border: 0.1rem solid white !important}
+.btn-black:hover{background: var(--mainBlue)!important;color:#fff !important}
+.cart-icon{cursor: pointer;font-size:  1.2rem; color:(--mainYellow)}
 
 
